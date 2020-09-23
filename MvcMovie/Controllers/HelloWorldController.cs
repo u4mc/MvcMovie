@@ -12,10 +12,7 @@ namespace MvcMovie.Controllers
         {
             return "This is my default action...";
         }
-        public void test()
-        {
 
-        }
         // GET: /HelloWorld/Welcome/ 
         // Requires using System.Text.Encodings.Web;
         public string Welcome(string name, int ID = 1)
